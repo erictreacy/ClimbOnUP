@@ -1,0 +1,11 @@
+{
+  "name": "climbing-data-backend",
+  "version": "1.0.0",
+  "description": "Backend for UP Michigan climbing data app",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "python src/scraper.py"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "climbing-data-app",
+  "version": "1.0.0",
+  "description": "UP Michigan climbing data application",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}
